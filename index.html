@@ -5,58 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <style>
-        table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
-}
-th, td {
-  background-color: #9f96d4;
-}
-    </style>
-</head>
-<body>
-    <header>
-        <img src="./assets/task3.png" alt="ToDo Logo"style="width:200px;height:200px;"> <h1>ToDo</h1> 
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                
-            </ul>
+    <script src="https://kit.fontawesome.com/bbf0b4418f.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="./style/index.css">
+
+    <style>
+      
+      table {
+        width: 50%;
+        
+      }
+      
+      th, td {
+        padding: 5px;
+        text-align: left;
+        border: 1px solid #DDD;
+      }
+      
+      tr:hover {background-color: #ece6d9;
+      color: #2785a2;
+    }
+    
+    
+      </style>
+
+
+</head>
+
+
+<body>
+    <header class="heading">
+
+        <img src="./assets/task3.png" alt="ToDo Logo"style="width:80px;height:80px;">
+        <nav class="btn">
+            
+         <a href="./index.html">Home</a>
+         <a href="./about.html">About Us</a>
+                
         </nav>
 
+        <div class="icons"> 
+
+          <div id="search-btn" class="fa-solid fa-magnifying-glass"> </div>
+          <div id="contact-btn" class="fa-solid fa-mobile-retro"> </div>
+          <div id="new-table-btn" class="fa-solid fa-plus"> </div>
+
+      </div>
+
     </header>
+
     <main>
-        <table>
-            <tr>
-              <th>Task</th>
-              <th> Status</th>
+      <p id="header"> ToDo</p>
+
+      <section class="table">
+
+       <table>
+            <tr id="tr">
+              <th id="th">Task</th>
+              <th id="th"> Status</th>
             </tr>
-            <tr>
-              <td>Cooking Lunch</td>
-              <td><input type="checkbox"></td>
+            <tr id="tr">
+              <td id="td">Task 1</td>
+
+              <td id="td"><input type="checkbox"></td>
               
             </tr>
-            <tr>
-              <td>Solving Tasks</td>
-              <td><input type="checkbox"></td>
+            <tr id="tr">
+              <td id="td">Task 2</td>
+
+              <td id="td"><input type="checkbox"></td>
               
             </tr>
-            <tr>
-                <td>Exercise</td>
-                <td><input type="checkbox"></td>
+            <tr id="tr">
+                <td id="td">Task 3</td>
+                <td id="td"><input type="checkbox"></td>
 
             </tr>
           </table>
 
+        </section>
+
     </main>
+
     <footer>
+
       <p>
-        &copy;Copy Right 2022 Shatha Alrayyani
+        &copy; 2022 Shatha Alrayyani
       </p>
 
     </footer>
+
 </body>
+
 </html>
