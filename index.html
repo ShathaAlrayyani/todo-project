@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <script src="https://kit.fontawesome.com/bbf0b4418f.js" crossorigin="anonymous"></script>
-
+    <script src="./js/app.js"></script>
     <link rel="stylesheet" href="./style/index.css">
 
     <style>
@@ -22,7 +22,7 @@
         border: 1px solid #DDD;
       }
       
-      tr:hover {background-color: #ece6d9;
+      td:hover {background-color: #ece6d9;
       color: #2785a2;
     }
     
@@ -36,49 +36,49 @@
 <body>
     <header class="heading">
 
-        <img src="./assets/task3.png" alt="ToDo Logo"style="width:80px;height:80px;">
-        <nav class="btn">
+        <img class="logo"src="./assets/task3.png" alt="ToDo Logo"style="width:80px;height:80px;">
+        <nav>
             
-         <a href="./index.html">Home</a>
-         <a href="./about.html">About Us</a>
+         <a class="btn" href="./index.html">Home</a>
+         <a class="btn" href="./about.html">About Us</a>
                 
         </nav>
 
-        <div class="icons"> 
+        <div> 
 
-          <div id="search-btn" class="fa-solid fa-magnifying-glass"> </div>
-          <div id="contact-btn" class="fa-solid fa-mobile-retro"> </div>
-          <div id="new-table-btn" class="fa-solid fa-plus"> </div>
+          <div class="icons" id="search-btn" class="fa-solid fa-magnifying-glass"> </div>
+          <div class="icons" id="contact-btn" class="fa-solid fa-mobile-retro"> </div>
+          <div class="icons" id="new-table-btn" class="fa-solid fa-plus"> </div>
 
       </div>
 
     </header>
 
     <main>
-      <p id="header"> ToDo</p>
+      <p class="header"> ToDo</p>
 
-      <section class="table">
+      <section>
 
-       <table>
-            <tr id="tr">
-              <th id="th">Task</th>
-              <th id="th"> Status</th>
+       <table class="table">
+            <tr class="tr">
+              <th class="th">Task</th>
+              <th class="th"> Status</th>
             </tr>
-            <tr id="tr">
-              <td id="td">Task 1</td>
+            <tr class="tr">
+              <td class="td">Task 1</td>
 
-              <td id="td"><input type="checkbox"></td>
+              <td class="td"><input type="checkbox"></td>
               
             </tr>
-            <tr id="tr">
-              <td id="td">Task 2</td>
+            <tr class="tr">
+              <td class="td">Task 2</td>
 
-              <td id="td"><input type="checkbox"></td>
+              <td class="td"><input type="checkbox"></td>
               
             </tr>
-            <tr id="tr">
-                <td id="td">Task 3</td>
-                <td id="td"><input type="checkbox"></td>
+            <tr class="tr">
+                <td class="td">Task 3</td>
+                <td class="td"><input type="checkbox"></td>
 
             </tr>
           </table>
@@ -89,7 +89,7 @@
 
     <footer>
 
-      <p>
+      <p class="footer">
         &copy; 2022 Shatha Alrayyani
       </p>
 

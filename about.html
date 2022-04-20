@@ -8,16 +8,16 @@
 
     <link rel="stylesheet" href="style/about.css">
     <script src="https://kit.fontawesome.com/bbf0b4418f.js" crossorigin="anonymous"></script>
+    
+
+
     <style>
         input {
             width: 50%;
             font-size: 1.5rem;  
-            background-color: ;  
+              
         }
-        img {
-            border-radius: 50%;
-            padding: 2rem;
-        }
+        
         p{
             font-size: 1.5rem;
 
@@ -30,21 +30,21 @@
     
     <header class="heading">
 
-        <img src="./assets/task3.png" alt="ToDo Logo"style="width: 80px;height: 80px;">
+        <img class="logo" src="./assets/task3.png" alt="ToDo Logo"style="width: 80px;height: 80px;">
 
-        <nav class="btn">
+        <nav>
     
-                <a href="./about.html">about us</a>
-                <a href="./index.html">Home</a>
+                <a class="btn"href="./about.html">about us</a>
+                <a class="btn"href="./index.html">Home</a>
 
         </nav>
 
 
-        <div class="icons"> 
+        <div > 
 
-            <div id="search-btn" class="fa-solid fa-magnifying-glass"> </div>
-            <div id="contact-btn" class="fa-solid fa-mobile-retro"> </div>
-            <div id="new-table-btn" class="fa-solid fa-plus"> </div>
+            <div class="icons"id="search-btn" class="fa-solid fa-magnifying-glass"> </div>
+            <div class="icons"id="contact-btn" class="fa-solid fa-mobile-retro"> </div>
+            <div class="icons"id="new-table-btn" class="fa-solid fa-plus"> </div>
 
         </div>
 
@@ -53,33 +53,33 @@
 
    <main>
 
-    <section class= "my-info">
+    <section >
 
-        <img src="./assets/my Photo.jpg" alt="Shatha"style="width:200px;height:200px;">
+        <img class="img" src="./assets/my Photo.jpg" alt="Shatha"style="width:200px;height:200px;">
 
-        <p>Name : Shatha Alrayyani  <br> 
+        <p class="my-info">Name : Shatha Alrayyani  <br> 
             Im interested in Data Analysis. <br>
             Im currently learning software Development (PYTHON)<br>
             <br>
             Contact Us 
     
         </p> 
-        <div id="contact-btn" class="fa-solid fa-mobile-retro"> </div>
+        <div class="btn1" id="contact-btn" class="fa-solid fa-mobile-retro"> </div>
 
     </section>
 
    
-    <Section class="form">
+    <Section>
         <form>
-            <label for="fname">First name:</label><br>
+            <label class="f-text" for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
+            <label class="f-text"for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname"><br>
-            <label for="email">Email:</label><br>
+            <label class="f-text"for="email">Email:</label><br>
             <input type="text" id="email" name="email"><br>
-            <label for="message">message:</label><br>
+            <label class="f-text"for="message">message:</label><br>
             <input type="text" id="message" name="message"><br><br>
-            <input type="submit" value="Submit">
+            <input class="sub" type="submit" value="Submit">
           </form>
 
     </Section>
@@ -87,7 +87,7 @@
    </main>
    
     <footer>
-        <p>
+        <p class="footer"> 
             &copy;2022 Shatha Alrayyani
         </p>
     </footer>
