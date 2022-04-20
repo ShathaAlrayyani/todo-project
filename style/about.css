@@ -53,4 +53,24 @@ html{
     justify-content: space-between;
     align-items: center;
     position:relative;
+ }
 
+ .btn{
+     margin-left: 1rem;
+     font-size: 1.2rem;
+ }
+
+ .img {
+        border-radius: 50%;
+        padding: 2rem;
+ }
+
+
+
+
+
+
+
+
+
+ 
