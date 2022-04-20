@@ -14,12 +14,13 @@
  let text;
  if (confirm("if you want to skip the welcoming message \n press Cancel.") == true && usergender == "male") {
    alert("Welcome Mr." + username);
- } 
- else if(confirm("if you want to skip the welcoming message \n press Cancel.") == true && usergender == "female") {
+ }else if(confirm("if you want to skip the welcoming message \n press Cancel.") == true && usergender == "female") {
    alert("Welcome Ms." + username);
- }
- else if (usergender != "female" || usergender !="male" && confirm("if you want to skip the welcoming message \n press Cancel.") == true ){
+ }else if (usergender != "female" || usergender !="male" && confirm("if you want to skip the welcoming message \n press Cancel.") == true ){
      alert("Welcome " + username);
- } 
+ }else if (confirm("if you want to skip the welcoming message \n press Cancel.") == false && usergender == "female" || usergender =="male"){
+     alert("thanks");
+ }
 
+ 
 

@@ -7,9 +7,9 @@ My website Wireframe :
 
 
 Q1:
-Today I was a little bit confused because the amount of information overwhelming . I need more time to process :smile:
+Today's lecture was good because I am familiar with most of it like the if statement :smile:
 
 
 Q2:
-Again today's assignment was not hard it took me 3 hours to finish the styling and the editing 
+Today's assignment was not hard but I also tried to fix my css files and I solved some problems.
 
