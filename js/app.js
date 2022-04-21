@@ -20,12 +20,15 @@
      alert("thanks");
  }
 
+ let answers = []
  let userAnswer1= prompt( "Q1: are you looking for a job ?");
 
  function firstQestion(){
   if (userAnswer1==""){
     alert ("your answer for Q1 invalid")
+    userAnswer1="invalid"
   }
+  answers.push(userAnswer1)
  }
 
  firstQestion()
@@ -35,7 +38,9 @@
  function secQestion(){
   if (userAnswer2==""){
     alert ("your answer for Q2 invalid")
+    userAnswer2="invalid"
   }
+  answers.push(userAnswer2)
  }
  secQestion()
 
@@ -44,12 +49,14 @@
  function thirdQestion(){
   if (userAnswer3==''){
     alert ("your answer for Q3 invalid")
+    userAnswer3="invalid"
   }
+  answers.push(userAnswer3)
  }
+
  thirdQestion()
 
- let answers = [userAnswer1,userAnswer2,userAnswer3]
-  console.log(answers);
-
-  
-
+ for (let i =0 ; i < 3; i++)
+ {
+   console .log ( answers[i] )
+ }
