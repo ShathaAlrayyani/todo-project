@@ -33,7 +33,7 @@
  let userAnswer2= prompt("Q2: are you a software developer ? ");
 
  function secQestion(){
-  if (userAnswer1==""){
+  if (userAnswer2==""){
     alert ("your answer for Q2 invalid")
   }
  }
@@ -42,7 +42,7 @@
  let userAnswer3= prompt("Q3: Do you mind working as a freelancer ?");
 
  function thirdQestion(){
-  if (userAnswer1==''){
+  if (userAnswer3==''){
     alert ("your answer for Q3 invalid")
   }
  }
