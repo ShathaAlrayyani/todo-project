@@ -7,9 +7,9 @@ My website Wireframe :
 
 
 Q1:
-Today's lecture was good because I am familiar with most of it like the if statement :smile:
+Today's lecture was good ,so far I am exited about this course . :smile:
 
 
 Q2:
-Today's assignment was not hard but I also tried to fix my css files and I solved some problems.
+Today's task was easy but the challenge I'm a little bit confused about it, trying to solve it before the deadline inshaallah . 
 
